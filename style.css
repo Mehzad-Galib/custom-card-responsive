@@ -1,0 +1,82 @@
+.main-part{
+    background-color: hsl(233, 47%, 7%);
+    height: 60vh;
+}
+
+.card {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: row;
+    margin: 10% 10% 10% 10%;
+    border-radius: 0.5rem;
+    
+}
+
+.card-header{
+    color: hsl(0, 0%, 100%);
+    font-family: url('https://fonts.google.com/specimen/Inter');
+    font-weight: 700;
+}
+.card-paragraph{
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+
+
+.left-section{
+    padding: 4rem;
+    width: 50%
+}
+
+.taglines{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.taglines h3{
+    color: hsla(0, 0%, 100%, 0.6)
+}
+.taglines p{
+    color: gainsboro;
+    font-size: 0.8rem;
+}
+
+.right-section{
+    width: 50%;
+}
+
+.right-section img{
+    max-width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:768px){
+    .card {
+        background-color: hsl(244, 38%, 16%);
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 2% 2% 2% 2%;
+        
+        border-radius: 0.5rem;
+        
+    }
+    .left-section{
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+    .right-section{
+        width: 100%;
+    }
+    .taglines{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .right-section img{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
