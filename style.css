@@ -1,7 +1,7 @@
 :root{
     /* font family */
-    --font-one: url('https://fonts.google.com/specimen/Inter');
-    --font-two: url('https://fonts.google.com/specimen/Lexend+Deca')
+    --font-one: 'Inter', sans-serif;
+    --font-two: 'Lexend Deca', sans-serif;
 }
 
 .main-part{
@@ -24,7 +24,8 @@
     font-weight: 700;
 }
 .card-paragraph{
-    color: hsla(0, 0%, 100%, 0.75)
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: var(--font-two);
 }
 
 
@@ -40,11 +41,13 @@
     justify-content: space-between;
 }
 .taglines h3{
-    color: hsla(0, 0%, 100%, 0.6)
+    color: hsla(0, 0%, 100%, 0.849);
+    font-family: var(--font-one);
 }
 .taglines p{
     color: gainsboro;
     font-size: 0.8rem;
+    font-family: var(--font-two);
 }
 
 .right-section{
