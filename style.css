@@ -1,3 +1,9 @@
+:root{
+    /* font family */
+    --font-one: url('https://fonts.google.com/specimen/Inter');
+    --font-two: url('https://fonts.google.com/specimen/Lexend+Deca')
+}
+
 .main-part{
     background-color: hsl(233, 47%, 7%);
     height: 60vh;
@@ -14,7 +20,7 @@
 
 .card-header{
     color: hsl(0, 0%, 100%);
-    font-family: url('https://fonts.google.com/specimen/Inter');
+    font-family: var(--font-one);
     font-weight: 700;
 }
 .card-paragraph{
@@ -43,11 +49,13 @@
 
 .right-section{
     width: 50%;
+    background: hsl(277, 64%, 61%);
 }
 
 .right-section img{
     max-width: 100%;
     height: 100%;
+    opacity: 0.5;
 }
 
 @media screen and (max-width:768px){
